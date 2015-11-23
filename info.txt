@@ -2,4 +2,8 @@ hi just testing....
 
 this is from local
 
+<<<<<<< HEAD
 this is from local test 2
+=======
+this line is from server
+>>>>>>> origin/master

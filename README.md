@@ -16,10 +16,10 @@ Scroll to bottom using JQuery
 ```
 Now Add jquery Code
 ```sh
-$(".scroll-bottom").click(function() {<br />
-    var toid = $(this).data('scrolltarget');<br />
-    $('html, body').animate({<br />
-        scrollTop: $(toid).offset().top - 45<br />
-    }, 1000);<br />
+$(".scroll-bottom").click(function() {
+    var toid = $(this).data('scrolltarget');
+    $('html, body').animate({
+        scrollTop: $(toid).offset().top - 45
+    }, 1000);
 });
 ```
